@@ -5,7 +5,6 @@ import { AiFillDelete } from "react-icons/ai";
 import { v4 as uuidv4 } from 'uuid';
 
 function App() { 
-  let a = 10;
   const [todo, setTodo] = useState("")
   const [todos, setTodos] = useState([])
   const [showFinished, setshowFinished] = useState(true)
